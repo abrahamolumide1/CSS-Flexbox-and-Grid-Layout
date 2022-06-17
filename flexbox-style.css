@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+   
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    }
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+main > div {
+    flex-direction: row;
+   
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 500px;
+    }
+.sedanimg{
+    color: hsl(31, 77%, 52%);
+    width: 50px;
+    height: 20px;
+}
+.sedan h1{
+        padding-bottom: 20px;
+        color: hsl(0, 0%, 95%);
+        margin: 20px;
+        }
+.sedan p{
+            padding-bottom: 10px;
+            color: hsla(0, 0%, 100%, 0.75);
+            margin: 20px;
+            line-height: 42px;
+         }
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+    padding: 20px;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 500px;
+}
+.suv-icon{
+    color: hsl(184, 100%, 22%)k;
+    width: 50px;
+    height: 30px;
+}
+.suvs h1{
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    margin: 20px;
+    }
+.suvs p{
+        padding-bottom: 50px;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin: 20px;
+        line-height: 30px;
+        }
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 500px;
+}
+.luxury-icon{
+    color: hsl(179, 100%, 13%);
+    width: 50px;
+    height: 30px;
+}
+.luxury h1{
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    margin: 20px;
+    }
+.luxury p{
+        padding-bottom: 50px;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 38px;
+        margin: 20px;
+         }
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+    padding: 10px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    margin: 20px;
+    width: 120px;
+}
